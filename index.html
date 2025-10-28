@@ -15,9 +15,9 @@
             <img src="Images/loogo.png" class="logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li> 
+                <li><a href="#about">About</a></li> <!---
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>  
+                <li><a href="#portfolio">Portfolio</a></li>  -->
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
@@ -39,7 +39,7 @@
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
                 <p>I am an MCA student with a strong foundation in computer science
-                 and expertise in C, C++, Java, Python, and web development.
+                 and expertise in C, Java, Python, and web development.
                  Passionate about problem-solving and teamwork, I have worked on
                  projects like Online Diagnostic Lab Management and Face Recognition
                  Attendance. A quick learner, I thrive in dynamic environments and aim
@@ -53,8 +53,10 @@
                  </div>
                  <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Programming language</span><br>C,C++,Java,Python,HTML,CSS,JS</li>
-                        <li><span>Database Management</span><br>MySQL, Oracle</li>
+                        <li><span>Programming language</span><br>C,Java,Python,HTML,CSS,JS</li>
+                        <li><span>Database Management</span><br>MySQL, SQL</li>
+                        <li><span>Frameworks and Libraries</span><br>Spring Boot, Hibernate, Angular, Pandas, NumPy</li>
+                        <li><span>Cybersecurity Tools & Concepts</span><br>Network Security, Threat Analysis, Risk Management, Encryption, Cisco Packet Tracer</li>
                         <li><span>Non Tech</span><br>Problem Solving,Communication Skills,Fast Learner</li>
                     </ul>
                  </div>
@@ -67,7 +69,7 @@
                  </div>
                  <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>2025</span><br>Pursuing in RevaUniversity</li>
+                        <li><span>2025</span><br>MCA in Reva University with  CGPA 8.4</li>
                         <li><span>2023</span><br>BCA from SFGC with 84.4%</li>
                         <li><span>2020</span><br>PU from VNIPUC with 65.6%</li>
                         <li><span>2018</span><br>SSLC from SDUIRHS with 80.0%</li>
@@ -81,29 +83,30 @@
 
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Sercices</h1>
+        <h1 class="sub-title">My Services</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>I create visually appealing, user-friendly, and
-                 responsive websites tailored to your needs for an 
-                 exceptional online presence.</p>
-                 <a href="#">Learn more</a>
-            </div>
-            <div>
                 <i class="fa-solid fa-laptop-code"></i>
-                <h2>UI Design</h2>
-                <p>I create intuitive and visually appealing UI
-                     designs that enhance user experience and engagement.
-                </p>
-                 <a href="#">Learn more</a>
+                <h2>Full Stack Web Development</h2>
+                <p>I develop responsive and scalable full-stack web applications using 
+                <strong>Angular, Spring Boot, and MySQL</strong>. My focus is on building efficient APIs, 
+                secure backend systems, and interactive user interfaces.</p>
+                <a href="#">Learn more</a>
             </div>
             <div>
-                <i class="fa-solid fa-file-code"></i>
-                <h2>Web App development</h2>
-                <p>I develop responsive and scalable web applications using
-                 modern technologies to deliver seamless user experiences.</p>
+                <i class="fa-solid fa-brain"></i>
+                <h2>AI & Deep Learning Solutions</h2>
+                <p>I design and implement intelligent systems using <strong>Python, TensorFlow, and CNNs</strong> 
+                for real-world problems such as medical image analysis and disease prediction. 
+                I ensure accuracy, performance, and usability in AI-based web applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Cybersecurity & Risk Management</h2>
+                <p>I apply my knowledge of <strong>network security, threat analysis, and encryption</strong> 
+                to build and maintain secure systems. I help protect applications from cyber threats 
+                through proactive vulnerability assessment and secure coding practices.</p>
                 <a href="#">Learn more</a>
             </div>
         </div>
@@ -116,40 +119,55 @@
     <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
+
+            <!-- Project 1 -->
             <div class="work">
-                <img src="Images/work-1.png">
+                <img src="Images/work-1.png" alt="Movie Ticket Booking Web App">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>A dynamic and user-friendly social media app designed
-                     to connect people, share content, and foster online communities.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Movie Ticket Booking Web App</h3>
+                    <p>A full-stack web application built using <strong>Angular, Spring Boot, and MySQL</strong>. 
+                    It enables users to browse movies, view showtimes, and book tickets with secure payment integration.
+                    Role-based modules for admin and user ensure smooth management of bookings and schedules.</p>
+                    <a href="https://github.com/Punith0425/BookYourShow" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
+
+            <!-- Project 2 -->
             <div class="work">
-                <img src="Images/work-2.png">
+                <img src="Images/work-2.png" alt="Lung Cancer Detection Using CNN">
                 <div class="layer">
-                    <h3>Mucic App</h3>
-                    <p>A dynamic and user-friendly social media app designed
-                     to connect people, share content, and foster online communities.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Lung Cancer Detection Using CNN</h3>
+                    <p>An AI-based diagnostic web app developed with <strong>Python, Flask, and CNN</strong> 
+                    to detect and classify lung cancer from CT scan images. 
+                    Achieved 99% accuracy through model optimization, preprocessing, and visualization techniques.</p>
+                    <a href="https://github.com/Punith0425/Lung-Cancer-Detection-Using-CNN" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
+
+            <!-- Project 3 -->
             <div class="work">
-                <img src="Images/work-3.png">
+                <img src="Images/work-3.png" alt="Cybersecurity & Network Simulation">
                 <div class="layer">
-                    <h3>Online shoping App</h3>
-                    <p>A dynamic and user-friendly social media app designed
-                     to connect people, share content, and foster online communities.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Cybersecurity & Network Simulation</h3>
+                    <p>Simulated secure network environments using <strong>Cisco Packet Tracer</strong> 
+                    to analyze threats and implement encryption, firewall, and access control mechanisms. 
+                    Demonstrated practical understanding of <strong>cyber defense and risk management</strong>.</p>
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
+
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="https://github.com/Punith0425" target="_blank" class="btn">See more</a>
     </div>
 </div>
 
-<!----------------contact----------------->
-    
+<!-- ----------------contact----------------->
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -161,9 +179,9 @@
                     <a href="https://www.linkedin.com/in/punithgowda-t-825a712b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/Punith0425"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.instagram.com/__puni_th_?igsh=MTYyMjkzeGk4eHpubw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="mailto:punithgowda23103@gmail.com" class="icon"><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
                 </div>
-                <a href="Images/MCA-Punithgowda.T-R23DE148.pdf" download class="btn btn2">Download CV</a>
+                <a href="Images/Punithgowda_T_Resume.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
@@ -232,4 +250,3 @@
 </script>
 </body>
 </html>
-
